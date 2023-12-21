@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerticalSliceMinimalApi", "src\VerticalSliceTeste\VerticalSliceMinimalApi.csproj", "{8EB413BD-C5DF-49A5-A372-4AEAF4999952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F35C213-4A69-4C5C-8A54-A8180D5DA8F3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92C5999C-A447-479E-8630-064E6FDC78DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{21C89A08-D942-45BE-A302-4EEB543573C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerticalSliceMinimalApi.Unit.Tests", "tests\VerticalSliceTeste.Unit.Tests\VerticalSliceMinimalApi.Unit.Tests.csproj", "{07A76FBE-083C-49AA-856E-0C1B95DEB7B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EB413BD-C5DF-49A5-A372-4AEAF4999952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB413BD-C5DF-49A5-A372-4AEAF4999952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB413BD-C5DF-49A5-A372-4AEAF4999952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB413BD-C5DF-49A5-A372-4AEAF4999952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A76FBE-083C-49AA-856E-0C1B95DEB7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A76FBE-083C-49AA-856E-0C1B95DEB7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A76FBE-083C-49AA-856E-0C1B95DEB7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A76FBE-083C-49AA-856E-0C1B95DEB7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EB413BD-C5DF-49A5-A372-4AEAF4999952} = {92C5999C-A447-479E-8630-064E6FDC78DA}
+		{07A76FBE-083C-49AA-856E-0C1B95DEB7B2} = {21C89A08-D942-45BE-A302-4EEB543573C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05047BC5-63A0-4913-8F82-9B59B4487C6D}
+	EndGlobalSection
+EndGlobal
